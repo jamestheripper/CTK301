@@ -1,0 +1,60 @@
+a {
+ color: #00ff00;
+}
+
+a:link {
+ color: #00ff00;
+}
+
+a:visited {
+ color: #0000ff;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ff0000;
+}
+
+h1{
+  color: white;
+}
+
+.first{
+  background-color: #6897e3;
+}
+
+h2{
+  color: #0000ff;
+}
+
+.doctor{
+  color: orange;
+}
+
+h3{
+  background-color: yellow;
+}
+
+.inferno{
+  color: red;
+}
+
+h4{
+  color: yellow;
+  background-color: green;
+}
+
+.modern{
+  background-color:  lightgreen;
+}
+
+h5{
+  color: red;
+}
+
+.last{
+  background-color: yellow;
+}
