@@ -1,0 +1,99 @@
+.customtext{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.textjustify{
+  text-align: justify;
+}
+
+header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.imgbox{
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+}
+
+body{
+  background-image: url(images/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: orange;
+  background-color: black;
+}
+
+.turngreen{
+  color: green;
+}
+
+#turnblue{
+  color: blue;
+}
+
+h2{
+  background-color: grey;
+}
+
+h3{
+  background-color: grey;
+}
+
+h4{
+  background-color: grey;
+}
+
+h5{
+  background-color: grey;
+}
+
+h6{
+  background-color: grey;
+}
+
+
+
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: green;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: yellow;
+}
+
+#majors{
+  color: pink;
+}
+
+.spanstyle{
+  color: red;
+}
+
+#requirement{
+  background-color: brown;
+}
