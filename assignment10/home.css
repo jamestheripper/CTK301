@@ -1,0 +1,112 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header{
+  grid-column: span 12;
+  text-align: center;
+}
+
+/* h1{
+  background-color: black;
+  color: white;
+} */
+
+nav{
+  grid-column: span 12;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  margin-bottom: 24px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+
+nav li a:hover{
+  color: grey;
+}
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+}
+
+h3{
+  grid-column: span 12;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+images{
+  grid-column: span 12;
+}
+
+aside{
+  grid-column: span 12;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+jobs{
+  grid-column: span 12;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+
+profile{
+  grid-column: span 12;
+  grid-column-gap: 24px;
+  margin: 24px auto;
+  grid-column: span 12;
+  grid-template-columns: 1fr 1fr 1fr;
+  object-fit: cover;
+}
+
+article{
+  grid-column: span 2;
+  margin-top: 0px;
+  text-align: justify;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+
+footer{
+  grid-column: span 12;
+  background-color: black;
+  color: white;
+  margin-top: 24px;
+
+  text-align: center;
+}
